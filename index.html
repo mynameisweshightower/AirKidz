@@ -10,7 +10,7 @@
   </head>
   <body>
 	<section class="navigation">
-		<div class="logo">
+		<!--<div class="logo">
 			<img src="images/airKidzLogo.png">
 		</div> <!-- /logo -->
 		<nav class="navlist">
@@ -21,12 +21,20 @@
 		</nav> <!-- /.navlist -->
 	</section> <!-- /.navigation -->
     <section class="page-header">
-		<h1 class="project-name">Air Kidz</h1>
-		<h2 class="project-tagline">AirKidz</h2>
+		<img src="images/airKidzLogo.png" class="logo">
+		<!--<h1 class="project-name">Air Kidz</h1>
+		<h2 class="project-tagline">AirKidz</h2>-->
     </section>
 
     <section class="main-content">
-      <div class="home-content">
+	  <div class="slideshow">
+		<div class="slides">
+			<img src="images/canopy.jpg" class="homeSlide">
+			<img src="images/Echols_103_Ice_shaver.jpg" class="homeSlide">
+			<img src="images/Bubblem.jpg" class="homeSlide">
+		</div> <!-- /.slides -->
+	  </div> <!-- /.slideshow -->
+      <div class="home-content home-content-first">
 		<img src="images/BounceHouse.jpg">
 		<h3>
 			Moonwalk Package Deals
@@ -46,7 +54,7 @@
 		</p>
 	  </div> <!-- /.home-content -->
 	  
-	  <div class="home-content">
+	  <div class="home-content home-content-last">
 		<img src="images/karaokeMachine.jpg">
 		<h3>
 			Karaoke
@@ -58,14 +66,22 @@
 	</section>
   
 	<section class="site-footer">
-		<div class="site-footer-owner">
-			&copy; 2016 AirKidz
+		<div class="site-footer-wrapper">
+			<div class="site-footer-owner">
+				&copy; 2016 AirKidz
+			</div> <!-- /.site-footer-owner -->
+			
+			<div class="site-footer-credits">
+			Developed by <a href="http://kiopah.com" target="_blank">Wes Hightower</a>
+			</div> <!-- /.site-footer-credits -->
+			
+			<div class="social-media">
+				<img src="#">
+			</div> <!-- /.social-media -->
 		</div>
-		
-		<div class="site-footer-credits">
-		Developed by <a href="http://kiopah.com" target="_blank">Wes Hightower</a>
-		</div>
-	</section> <!-- /.footer -->
-  <script src="/scripts/ga.js"></script>
+	</section> <!-- /.site-footer -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="scripts/slideshow.js"></script>
+  <script src="scripts/ga.js"></script>
   </body>
 </html>
