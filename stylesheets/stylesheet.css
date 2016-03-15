@@ -446,9 +446,10 @@ a:hover
 
 .site-footer 
 {
-  padding-top: 2rem;
-  margin-top: 2rem;
-  border-top: solid 1px #eff0f1; 
+  padding-top:2rem;
+  padding-bottom:2rem;
+  margin-top:2rem;
+  border-top:solid 1px #eff0f1; 
   background:#DCC3A0;
 }
 
@@ -456,17 +457,30 @@ a:hover
 {
     max-width:64rem;
     margin:0 auto;
+	position:relative;
 }
 
 .site-footer-owner 
 {
-  display: block;
+  display: inline-block;
   font-weight: bold; 
 }
 
 .site-footer-credits 
 {
   color: #819198; 
+}
+
+.social-media
+{
+    position:absolute;
+    bottom:0rem;
+    right:0px;
+}
+
+.social-media img
+{
+    width:30px;
 }
 
 @media screen and (min-width: 64em) 
