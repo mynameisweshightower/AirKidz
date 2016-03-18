@@ -1,6 +1,6 @@
 window.onload = function()
 {
-	var slideshowTimer = setInterval(slideIt, 2000);
+	var slideshowTimer = setInterval(slideIt, 7000);
 }
 
 var slideLeft = 0;
