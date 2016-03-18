@@ -87,6 +87,15 @@ body
 	display:inline-block;
 }
 
+
+@media screen and (max-width: 42em) 
+{
+  .homeSlide 
+  {
+    width:32.9%; 
+  } 
+}
+
 a 
 {
   color: #1e6bb8;
