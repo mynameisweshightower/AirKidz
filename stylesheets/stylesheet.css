@@ -438,18 +438,34 @@ a:hover
 .home-content-first
 {
 	margin-left:0;
-	margin-right:0.5rem;
+	margin-right:0.7%;
 }
 
 .home-content-last
 {
 	margin-right:0;
-	margin-left:0.5rem;
+	margin-left:0.7%;
 }
 
 .home-content img, .services-content img
 {
 	max-height:16rem;
+}
+
+@media screen and (max-width: 42em) 
+{
+  .home-content 
+  {
+    width:98%; 
+  } 
+}
+
+@media screen and (max-width: 64em) and (min-width: 42em)
+{
+  .home-content 
+  {
+    width:32.3%; 
+  } 
 }
 
 .site-footer 
