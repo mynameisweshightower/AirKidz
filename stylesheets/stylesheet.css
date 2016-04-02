@@ -103,7 +103,7 @@ a
 }
 a:hover 
 {
-    text-decoration: underline; 
+    text-decoration: none; 
 }
 
 .btn 
@@ -261,6 +261,7 @@ a:hover
 {
 	/*background:#FFF0CF;*/
 	width:100%;
+	text-align:center;
 }
 
 .main-content :first-child 
@@ -276,7 +277,8 @@ a:hover
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; 
+  color: #159957;
+  text-align:center;
 }
 .main-content p 
 {
@@ -442,6 +444,12 @@ a:hover
 	margin-top:2rem;
 	display:inline-block;
 	background:#DCC3A0;
+}
+
+.services-content
+{
+	width:49%;
+	text-align:center;
 }
 
 .home-content-first
